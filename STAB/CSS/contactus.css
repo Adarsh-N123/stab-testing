@@ -1,0 +1,291 @@
+/* body {
+  background-color: blue;
+} */
+
+.GS-stab {
+    height: 45vh;
+    padding-top: 7vh;
+    padding-bottom: 10vh;
+    text-align: center;
+}
+/* .gmailgs{
+    font-size: 1.7vh;
+    
+    width: 30vh;
+    height: 4vh;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+} */
+.positiongs{
+    
+    width: 30vh;
+    height: 4vh;
+    /* background-color: rgb(50, 50, 50); */
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2.3vh;
+    margin-left: 50%;
+    margin-top: 4px;
+    transform: translateX(-50%);
+}
+
+.contact-us {
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient( to bottom, #000428, #004e92);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( to bottom, #000428, #004e92);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("background.jpg");
+    /* height: 100vh !important; */
+}
+
+.heading-gs {
+    
+    width: 30vh;
+    height: 4vh;
+    /* background-color: rgb(50, 50, 50); */
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#img-gs {
+    width: 24vh;
+    height: 24vh;
+    border-radius: 50%;
+}
+
+.imgclub {
+    width: 15vh;
+    height: 15vh;
+    border-radius:50%;
+}
+
+.stab-club {
+    text-align: center;
+}
+
+.clubyash {
+    width: 20vh;
+    margin: 2vh;
+    display: inline-block;
+}
+
+.heading {
+    width: 18vh;
+    height: 3vh;
+    /* background-color: rgb(50, 50, 50); */
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.your-class{
+    margin-top: 50vh;
+}
+
+
+
+
+
+
+
+.footer-right a {
+    display: inline-block;
+    width: 4vh;
+    height: 4vh;
+    background-color: #33383b;
+    border-radius: 1vh;
+    font-size: 3vh;
+    color: #ffffff;
+    text-align: center;
+    line-height: 4vh;
+    margin-left: 1vh;
+    transition: all .25s;
+}
+
+.footer-right a:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+
+
+
+
+@media (max-width:1050px){
+    .contact-img{
+        align-items: center;
+        margin-top:-5vw;
+        
+    }
+    #cheaddetail{
+        margin-left: 5vw;
+        width: 30vw;
+        font-size: 2vw;
+        margin-top: 0vw;
+    }
+    #cheadname{
+        font-size: 2vw;
+        margin-top: 0vw;
+    }
+    .your-class{
+        margin-top: 70vh;
+    }
+    .individual-text-div{
+        margin-top:45vh;
+        width: 90vw;
+        font-size: 1vw;
+    }
+}
+@media (max-width:800px){
+    .contact-img{
+        align-items: center;
+        margin-bottom: -20vh;
+        margin-top: -5vh;
+        
+    }
+    #cheaddetail{
+        margin-left: 5vw;
+        width: 30vw;
+        margin-top: -10vw;
+        
+        margin-bottom: 0vw;
+    }
+    #cheadname{
+        margin-top: 30vh;
+    }
+    .individual-text-div{
+        margin-top:43vh;
+        font-size: 1.2vw;
+    }
+    .your-class{
+        margin-top: 70vh;
+    }
+}
+@media (max-width: 769px) {
+
+    /* #section3{
+        /* height:160vh; */
+        /* width: 100%; overflow-y: scroll; */
+    /* } */
+    /* .individual-text-div{
+        margin-top:20vh;
+        font-size: 1.2vw;
+    }
+    .contact-img{
+        align-items: center;
+        margin-bottom: 0vh;
+    }
+    #cheaddetail{
+        margin-left: 5vw;
+        width: 30vw;
+        font-size: 3vw;
+    }
+    #cheadname{
+        font-size: 3vw;
+    } */
+    .your-class{
+        margin-top: 70vh;
+    }
+    .imgclub {
+        width: 12vh;
+        height: 12vh;
+        border-radius: 50%;
+    }
+    .individual-text-div{
+        margin-top:-2vh;
+        font-size: 2.5vw;
+    }
+    #cheaddetail{
+        margin-left: 5vw;
+        width: 30vw;
+        font-size: 3vw;
+        margin-top: -8vh;
+    }
+    #cheadname{
+        font-size: 3vw;
+        margin-top:5vh;
+    }
+    .heading {
+        width: 15vh;
+        height: 3vh;
+        /* background-color: rgb(50, 50, 50); */
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 2vh;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    #img-gs {
+        width: 22vh;
+        height: 22vh;
+        border-radius: 50%;
+    }
+    .GS-stab {
+        height: 50vh;
+        padding-top: 7vh;
+        padding-bottom: 5vh;
+        text-align: center;
+    }
+    .heading-gs {
+        width: 26vh;
+        height: 4vh;
+        /* background-color: rgb(50, 50, 50); */
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 3vh;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .clubyash {
+        width: 21vh;
+        margin: 1vh;
+        display: inline-block;
+    }
+}
+@media (max-width: 410px) {
+    .imgclub {
+        width: 10vh;
+        height: 10vh;
+        border-radius:50%;
+    }
+    .heading {
+        width: 12vh;
+        height: 3vh;
+        /* background-color: rgb(50, 50, 50); */
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 2vh;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .contact-img{
+        align-items: center;
+        width: 30%;
+        margin-top: 10vw;
+    }
+    #cheadname{
+        margin-top: 20vw;
+    }
+    
+    .individual-text-div{
+        margin-top:5vh;
+        width: 90%;
+        font-size: 4vw;
+    } 
+}
