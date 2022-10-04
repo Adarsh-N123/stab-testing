@@ -48,6 +48,9 @@
     background-image: url("background.jpg");
     /* height: 100vh !important; */
 }
+.glimp{
+    margin-top:40vh;
+}
 
 .heading-gs {
     
@@ -96,7 +99,7 @@
     transform: translateX(-50%);
 }
 .your-class{
-    margin-top: 50vh;
+    margin-top: 10vh;
 }
 
 
@@ -133,6 +136,9 @@
         margin-top:-5vw;
         
     }
+    .glimp{
+        margin-top:62vh;
+    }
     #cheaddetail{
         margin-left: 5vw;
         width: 30vw;
@@ -144,10 +150,10 @@
         margin-top: 0vw;
     }
     .your-class{
-        margin-top: 70vh;
+        margin-top: 9vh;
     }
     .individual-text-div{
-        margin-top:45vh;
+        margin-top:40vh;
         width: 90vw;
         font-size: 1vw;
     }
@@ -169,12 +175,15 @@
     #cheadname{
         margin-top: 30vh;
     }
+    .glimp{
+        margin-top:62vh;
+    }
     .individual-text-div{
-        margin-top:43vh;
+        margin-top:39vh;
         font-size: 1.2vw;
     }
     .your-class{
-        margin-top: 70vh;
+        margin-top: 10vh;
     }
 }
 @media (max-width: 769px) {
@@ -200,7 +209,10 @@
         font-size: 3vw;
     } */
     .your-class{
-        margin-top: 70vh;
+        margin-top: 20vh;
+    }
+    .glimp{
+        margin-top:44vh;
     }
     .imgclub {
         width: 12vh;
@@ -208,8 +220,8 @@
         border-radius: 50%;
     }
     .individual-text-div{
-        margin-top:-2vh;
-        font-size: 2.5vw;
+        margin-top:-4vh;
+        font-size: 2.1vw;
     }
     #cheaddetail{
         margin-left: 5vw;
@@ -286,15 +298,58 @@
         margin-top: 10vw;
     }
     #cheadname{
+        margin-top: 20vw;
+    }
+    
+    .individual-text-div{
+        margin-top:-4vh;
+        width: 90%;
+        font-size: 3vw;
+    } 
+    .img-size{
+        width: 60vw;
+    }
+    .glimp{
+        margin-top:40vh;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .imgclub {
+        width: 10vh;
+        height: 10vh;
+        border-radius:50%;
+    }
+    .heading {
+        width: 12vh;
+        height: 3vh;
+        /* background-color: rgb(50, 50, 50); */
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 2vh;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .contact-img{
+        align-items: center;
+        width: 30%;
+        margin-top: 10vw;
+    }
+    #cheadname{
         margin-top: 30vw;
     }
     
     .individual-text-div{
-        margin-top:11vh;
+        margin-top:10vh;
         width: 90%;
-        font-size: 4vw;
+        font-size: 3vw;
     } 
     .img-size{
         width: 60vw;
+    }
+    .glimp{
+        margin-top:40vh;
     }
 }
