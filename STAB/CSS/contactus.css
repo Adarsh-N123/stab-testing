@@ -34,6 +34,9 @@
     margin-top: 4px;
     transform: translateX(-50%);
 }
+.img-size{
+    width:20vw;
+}
 
 .contact-us {
     background: #000428;
@@ -256,6 +259,9 @@
         margin: 1vh;
         display: inline-block;
     }
+    .img-size{
+        width: 25vw;
+    }
 }
 @media (max-width: 410px) {
     .imgclub {
@@ -280,12 +286,15 @@
         margin-top: 10vw;
     }
     #cheadname{
-        margin-top: 20vw;
+        margin-top: 30vw;
     }
     
     .individual-text-div{
-        margin-top:5vh;
+        margin-top:11vh;
         width: 90%;
         font-size: 4vw;
     } 
+    .img-size{
+        width: 60vw;
+    }
 }
